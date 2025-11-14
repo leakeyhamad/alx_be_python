@@ -16,9 +16,7 @@ def calculator():
     num2 = float(num2)
   
     
-    # --- Input Operation ---
-   
-    operation = input("Choose the operation(+, -, *, /): ").strip()
+    operation = input("Choose the operation (+, -, *, /): ").strip()
     
     
     
