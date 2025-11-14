@@ -17,7 +17,7 @@ def calculator():
   
     
     # --- Input Operation ---
-    print("\nSelect an operation:")
+    print("\nChoose the operation:")
     print("  + : Addition")
     print("  - : Subtraction")
     print("  * : Multiplication")
