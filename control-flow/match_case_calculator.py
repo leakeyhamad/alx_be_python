@@ -22,7 +22,7 @@ def calculator():
     print("  - : Subtraction")
     print("  * : Multiplication")
     print("  / : Division")
-    operation = input("Enter your choice (+, -, *, /): ").strip()
+    operation = input("Choose the operation(+, -, *, /): ").strip()
     
     result = None
     
