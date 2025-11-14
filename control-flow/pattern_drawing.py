@@ -14,7 +14,9 @@ def print_square_pattern():
         
         # Action: Print the row of asterisks using string multiplication
         # This effectively prints the column pattern for one row.
-        print("*" * size,end="")
+        for column_count in range(size):
+            # The 'end=""' prevents a newline after the asterisk
+            print("*", end="")
         
         # 3. Update: Increment the counter to move to the next row
         row_count += 1
