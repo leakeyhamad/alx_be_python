@@ -48,7 +48,7 @@ def create_daily_reminder():
     final_reminder = (
         f"Reminder: **'{task}'** is {priority_message}{action_required}"
     )
-
+    print(f"Reminder: {task} is {priority_message}{action_required}")
     print("\n" + "=" * 10 + " REMINDER " + "=" * 10)
     print(final_reminder)
     print("=" * 30)
