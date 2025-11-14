@@ -6,18 +6,15 @@ def calculator():
     print("Match Case Calculator")
     
     # --- Input Numbers ---
-    try:
+    
         # Prompt user for the first number
-        num1= input("Enter the first number (float): ")
-        num1 = float(num1)
+    num1= input("Enter the first number: ")
+    num1 = float(num1)
         
         # Prompt user for the second number
-        num2 = input("Enter the second number (float): ")
-        num2 = float(num2)
-    except ValueError:
-        # Handle case where input is not a valid number
-        print("Error: Invalid number input. Please enter valid numerical values.")
-        return # Exit the function if input is invalid
+    num2 = input("Enter the second number: ")
+    num2 = float(num2)
+  
     
     # --- Input Operation ---
     print("\nSelect an operation:")
