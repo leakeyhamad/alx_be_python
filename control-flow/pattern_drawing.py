@@ -7,13 +7,9 @@ def print_square_pattern():
     # --- Input Size ---
    
         # Prompt user and convert input to an integer
-    size_input = input("Enter the size of the pattern: ")
-    size = int(size_input)
+    size = int(input("Enter the size of the pattern: "))
     
     
-    
-        
-    print("-" * size) # Separator for clarity
     
     # --- Generate Pattern using Nested Loops ---
     # 1. Outer loop controls the rows
