@@ -8,13 +8,13 @@ def print_square_pattern():
    
         # Prompt user and convert input to an integer
     size = int(input("Enter the size of the pattern: "))
-    
+    row_count = 0
     # 2. Condition: The loop runs as long as the counter is less than the size
     while row_count < size:
         
         # Action: Print the row of asterisks using string multiplication
         # This effectively prints the column pattern for one row.
-        print("*" * size)
+        print("*" * size,end="")
         
         # 3. Update: Increment the counter to move to the next row
         row_count += 1
