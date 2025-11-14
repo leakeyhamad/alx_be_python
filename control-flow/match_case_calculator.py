@@ -17,14 +17,10 @@ def calculator():
   
     
     # --- Input Operation ---
-    print("\nChoose the operation:")
-    print("  + : Addition")
-    print("  - : Subtraction")
-    print("  * : Multiplication")
-    print("  / : Division")
+   
     operation = input("Choose the operation(+, -, *, /): ").strip()
     
-    result = None
+    
     
     # --- Match Case Statement for Calculation ---
     match operation:
