@@ -52,7 +52,7 @@ def calculator():
     print(f"\n--- Result ---")
     print(f"Operation: **{op_name}**")
     print(f"Calculation: **{num1} {operation} {num2}**")
-    print(f"Result: **{result}**")
+    print(f"The result is: {result}")
 
 # Execute the calculator function when the script is run
 if __name__ == "__main__":
