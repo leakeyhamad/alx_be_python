@@ -1,18 +1,4 @@
-def perform_operation(num1, num2, operation) -> float | str:
-    """
-    Performs a basic arithmetic operation (add, subtract, multiply, or divide) 
-    on two numbers.
-
-    Parameters:
-        num1 (float): The first number.
-        num2 (float): The second number.
-        operation (str): The operation to perform ('add', 'subtract', 
-                         'multiply', or 'divide').
-
-    Returns:
-        float or str: The result of the operation, or the string 
-                      "Error: Cannot divide by zero" for division by zero.
-    """
+def perform_operation (num1, num2, operation):
     
     if operation == 'add':
         return num1 + num2
