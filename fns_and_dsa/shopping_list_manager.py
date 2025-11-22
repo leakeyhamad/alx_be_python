@@ -1,12 +1,13 @@
 def display_menu():
     """Prints the main menu options to the console."""
-    print(f"\nShopping List Manager")
+    # This line now directly prints the required title string:
+    print("Shopping List Manager") 
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
-    print("-----------------------------\n")
 
+    
 def main():
     """
     The main function that runs the shopping list manager loop.
