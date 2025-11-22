@@ -1,4 +1,4 @@
-def perform_operation(num1: float, num2: float, operation: str) -> float | str:
+def perform_operation(num1, num2, operation) -> float | str:
     """
     Performs a basic arithmetic operation (add, subtract, multiply, or divide) 
     on two numbers.
