@@ -1,6 +1,6 @@
 def display_menu():
     """Prints the main menu options to the console."""
-    print("\n--- Shopping List Manager ---")
+    print(f"\nShopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
