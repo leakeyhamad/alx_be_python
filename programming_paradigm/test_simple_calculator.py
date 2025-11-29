@@ -13,7 +13,7 @@ class TestSimpleCalculator(unittest.TestCase):
 
 # --- Generic Test Methods ---
 
-    def test_add(self):
+    def test_addition(self):
         """Test the addition method with various inputs (positive, negative, zero, float)."""
         # Positive integers
         self.assertEqual(self.calc.add(2, 3), 5)
