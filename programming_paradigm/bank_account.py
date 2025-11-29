@@ -14,7 +14,7 @@ class BankAccount:
         # Although not strictly enforced in Python, using a single underscore 
         # is a convention to denote a protected attribute.
         self._account_balance = initial_balance
-        print(f"Account created with an initial balance of ${self._account_balance:.2f}")
+        #print(f"Account created with an initial balance of ${self._account_balance:.2f}")
 
     def deposit(self, amount):
         """
