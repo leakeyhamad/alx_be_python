@@ -13,7 +13,7 @@ class Calculator:
         return a + b
 
     @classmethod
-    def multiply(cls, a: float, b: float) -> float:
+    def multiply(cls, a, b) -> float:
         """
         Class Method: Performs multiplication. Uses 'cls' to access class attributes.
         """
