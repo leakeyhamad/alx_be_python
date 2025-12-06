@@ -2,25 +2,21 @@ class Calculator:
     """
     A class demonstrating the use of class methods and static methods.
     """
-    # Class Attribute: Accessed by the class method
+    # Class Attribute
     calculation_type = "Arithmetic Operations"
 
     @staticmethod
     def add(a: float, b: float) -> float:
         """
-        Static Method: Returns the sum of two numbers.
-        It does not take 'self' or 'cls' and cannot access class or instance attributes.
-        It works like a regular function placed inside the class namespace.
+        Static Method: Performs addition. No access to class or instance data.
         """
         return a + b
 
     @classmethod
     def multiply(cls, a: float, b: float) -> float:
         """
-        Class Method: Returns the product of two numbers.
-        It takes 'cls' (the class itself) as the first argument, allowing it 
-        to access and modify class-level attributes.
+        Class Method: Performs multiplication. Uses 'cls' to access class attributes.
         """
-        # Accessing the class attribute 'calculation_type' via the 'cls' parameter
+        # Note the use of 'cls' to access the class attribute
         print(f"Calculation type: {cls.calculation_type}")
         return a * b
