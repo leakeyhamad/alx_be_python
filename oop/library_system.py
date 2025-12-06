@@ -52,26 +52,25 @@ class PrintBook(Book):
 
 class Library:
     """
-    A class that manages a collection of Book objects using Composition.
+    A class that manages a collection of Book objects using Composition, 
+    optimized to match the minimal expected output format.
     """
     def __init__(self):
         self.books = [] 
 
-    def add_book(self, book: Book):
+    def add_book(self, book):
         """
         Adds a Book instance to the library collection.
         """
         self.books.append(book)
-        print(f"Added '{book.title}' to the library.")
+        # REMOVED: print(f"Added '{book.title}' to the library.")
 
     def list_books(self):
         """
-        Prints the details of every book in the library.
-        By printing the object directly, Python automatically calls the 
-        appropriate __str__ method for each book type.
+        Prints only the details of every book, without extra headers/footers.
         """
-        print("\n--- Current Library Collection ---")
+        # REMOVED: print("\n--- Current Library Collection ---")
         for book in self.books:
-            # Polymorphism in action: print(book) calls book.__str__()
+            # This calls the correct __str__ method for each book type
             print(book) 
-        print("----------------------------------")
+        # REMOVED: print("----------------------------------")
